@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.location-favorite {
+    background: black;
+    color: white;
+    width: 20%;
+    padding: 20px;
+    margin-bottom: 30px;
+    place-self: center;
+}
+.contact {
+    margin: 30px 0;
+}
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #555;
+}
+footer {
+    background: black;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+.footer-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.section {
+    flex: 1;
+    min-width: 100px;
+    margin: 10px;
+    text-align: left;
+}
+.section h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.section p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.newsletter {
+    margin-bottom: 20px;
+}
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.newsletter .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+a {
+    color: #f9b233;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    resize: both; /* Enables resizing */
+    overflow: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
